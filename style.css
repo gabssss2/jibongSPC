@@ -405,14 +405,15 @@ color:var(--light);
   position:absolute;
 transform:translateY(15rem) ;
 color:var(--dark);
-background-color: #ffffff ;
 border-radius:1rem;
 
 }
 .project__card a:hover{
   color:var(--green);
 }
-
+.project__card img{
+  filter:brightness(50%);
+}
 
 
 
@@ -441,5 +442,10 @@ border-radius:1rem;
     .btn.bg--border-dark{
       background-color: var(--light);
       border:1px solid var(--dark);
+      color:var(--dark);
+    }
+    .btn.bg--border-light{
+      background-color: var(--light);
+      border:3px solid var(--dark);
       color:var(--dark);
     }
