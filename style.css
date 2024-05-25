@@ -287,11 +287,6 @@ font-size: 5rem;
 font-weight: 500;
 margin-bottom: 2rem;
 }
-.services__title p{
-  font-size: 2rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
-}
 .services__wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -335,11 +330,7 @@ max-width: 20rem;
   font-weight:700;
   margin-bottom:2rem;
 }
-.client__title p{
-  font-size:2rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
-}
+
 .client__wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
